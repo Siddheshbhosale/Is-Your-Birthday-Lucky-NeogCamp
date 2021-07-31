@@ -1,2 +1,2 @@
-# Is-Your-Birthday-Lucky-NeogCamp
+# CLI-App-neog
 Created with CodeSandbox

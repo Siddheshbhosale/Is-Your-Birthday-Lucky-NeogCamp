@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Otomanopee+One&family=Roboto+Slab&family=Roboto:wght@300&display=swap");
+
+*{
+  margin: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.firstpage{
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-image:
+    url(https://images.pexels.com/photos/1303088/pexels-photo-1303088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maintitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 10rem;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.maintitle h1 {
+  margin-bottom: 0;
+  font-family:  sans-serif;
+  color: #4a62e9;
+}
+.maintitle a {
+  border: 2px solid #eb4d4b;
+  border-radius: 0.5rem;
+  margin: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  display: block;
+  color: #8678da;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.maintitle a:hover {
+  background-color: #f03238;
+  color: white;
+  border: 2px solid white;
+  transform: scale(1.2,1.2);
+}
+
+#secondpage {
+  min-height: 100vh;
+  background-image: url(https://images.pexels.com/photos/157879/gift-jeans-fashion-pack-157879.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+}
+
+
+#alertBox{
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b71540;
+  color: black;
+  border: 1px transparent;
+  border-radius: 0.5rem;
+}
+
+#cross{
+  padding-Left: 1rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.privacy{
+  font-size: 1rem;
+  padding: 1rem 0;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.workspace{
+  background: rgba(252, 217, 172, 0.479);
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px transparent;
+  border-radius: 0.5rem;
+}
+
+label{
+  padding: 1rem 0rem 0.5rem;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.instruction{
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(#b71540);
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+form input{
+  display: inline-block;
+  height: 38px;
+  width: 190px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: 0px 0px 10px 2px #b71540;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 1.1rem;
+
+  background-color: #b71540;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+
+img{
+  border: 2px solid white ;
+  border-radius: 25px;
+  margin:8px auto;
+  display: block;
+}
+
+.lable{
+  background-color: whitesmoke;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+footer {
+  padding: 0 0 1rem;
+  background-color: rgb(255, 153, 102, 0.5);
+  color: white;
+  padding: 1rem;
+  border: 1px transparent;
+  border-radius: 0.5rem;
+}
+
+.footerLink a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: black;
+}
+
+footer li {
+  font-size: 1.2rem;
+} 
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+
+}
+
+.creator {
+  color: var(--primary-color);
+  font-family: "Otomanopee One", sans-serif;
+}
+
+.legacyText {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+.legacyText a {
+  font-size: 1rem;
+}
