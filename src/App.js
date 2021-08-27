@@ -24,6 +24,7 @@ export default function App() {
       for (let i = 0; i < string.length; i++) {
         sum += Number(string[i]);
       }
+      return 0;
     });
     if (sum % luckyNo === 0) {
       setdisplayresult(["Hurray!!You are a lucky person!", happyImgDiv]);
@@ -115,7 +116,7 @@ export default function App() {
               </a>
             </li>
             <li className="footerLink">
-              <a href="" target="blank">
+              <a href="#" target="blank">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
@@ -125,7 +126,7 @@ export default function App() {
               </a>
             </li>
             <li className="footerLink">
-              <a href="" target="blank">
+              <a href="#" target="blank">
                 <i className="fas fa-briefcase"></i>
               </a>
             </li>

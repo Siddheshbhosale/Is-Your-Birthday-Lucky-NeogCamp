@@ -184,6 +184,10 @@ footer {
   color: black;
 }
 
+.footerLink a i{
+  font-size: 2rem;
+}
+
 footer li {
   font-size: 1.2rem;
 }
